@@ -1,3 +1,7 @@
-// import angularMeteor from '1237anjasdbhsbd712b3hbas'; // it's a temp npm package of angular-meteor
+import 'angular';
+import '1237anjasdbhsbd712b3hbas'; // it's a temp npm package of angular-meteor
+import './app.html';
 
-console.log(angular);
+angular.module('app', [
+  'angular-meteor'
+]);
